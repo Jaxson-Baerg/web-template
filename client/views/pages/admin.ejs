@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../partials/head'); %>
+  	</head>
+
+  	<body class="container">
+
+	<header id="header" class="fixed-top">
+	  	<%- include('../partials/header'); %>
+	</header>
+
+	<main>
+	  	<div class="jumbotron">
+
+			<div class="section-title">
+				<h1 class="text-center">Admin</h1>
+			</div>
+
+			<% if(message) { %>
+		  		<p class="alert alert-success"><%= message %></p>
+			<% } %>
+
+			<div class="row portfolio-container">
+                <p>Welcome to the admin page!</p>
+			</div>
+	  	</div>
+	</main>
+
+	<footer>
+	  	<%- include('../partials/footer'); %>
+	</footer>
+
+	<script>
+
+	</script>
+
+  	</body>
+</html>
