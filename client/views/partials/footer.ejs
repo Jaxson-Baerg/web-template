@@ -1,17 +1,21 @@
 <div class="footer-container d-flex align-items-center">
-    <span>© Baerg & Sons. Design: HTML5UP.</span>
-    <span id="footer-location-text">Located on Fibber Island</span>
-    <div class="d-flex">
-      <div class="footer-link">
-        <a href="mailto:dev@baerg.ca"><img src="/public/images/at.png"></a>
-      </div>
-    </div>
-  </div>
+  <ul class="icons">
+    <li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+    <li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+    <li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+    <li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+  </ul>
+
+  <ul class="copyright">
+    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+  </ul>
+</div>
   
-  <%- include('./listener_script'); %>
-  <script>
-    if (window.history.replaceState) {
-      window.history.replaceState( null, null, window.location.href );
-    }
-  </script>
+<%- include('./scripts/listener_script'); %>
+<script>
+  if (window.history.replaceState) {
+    window.history.replaceState( null, null, window.location.href );
+  }
+</script>
   
